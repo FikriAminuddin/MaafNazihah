@@ -59,8 +59,8 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    max-width: 600px;
-    max-height: 650px; 
+    max-width: 100%; /* Sesuaikan lebar penuh untuk perangkat lebih kecil (iPhone 11) */
+    max-height: 300px; /* Sesuaikan tinggi untuk perangkat lebih kecil (iPhone 11) */
 }
 
 #myVideo {
@@ -181,8 +181,6 @@ body {
         max-height: 300px; /* Sesuaikan tinggi untuk perangkat lebih kecil */
     }
 
-    
-
     .images-container {
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Sesuaikan lebar gambar */
     }
@@ -195,8 +193,6 @@ body {
         max-height: 400px; /* Sesuaikan tinggi sesuai proporsi yang masuk akal */
     }
 
-    
-
     .images-container {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Sesuaikan lebar gambar */
     }
@@ -208,8 +204,6 @@ body {
         max-width: 600px; /* Tetap sesuai dengan proporsi besar layar */
         max-height: 650px; /* Tetap sesuai dengan proporsi besar layar */
     }
-
-    
 
     .images-container {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Sesuaikan grid sesuai lebar layar */
